@@ -1,8 +1,3 @@
-# main.py
-
-# main.py
-
-# main.py
 
 from menu import mostrar_menu
 from registrar import registrar_producto, inventario
@@ -22,7 +17,7 @@ while continuar:
         sacar_producto()
     elif opcion == "4":
         ver_registros_salida()
-    elif opcion == "7":  # opción de salir
+    elif opcion == "5": 
         print("Saliendo del sistema...")
         continuar = False
     else:
